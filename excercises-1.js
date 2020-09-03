@@ -20,37 +20,23 @@
 ///////////////////////////////////////////////////////
 
 // READ FIRST
-// The assertions are there only to help you make sure 
+// The assertions are there only to help you make sure
 // your functions are written correctly. There is no need
 // to change them. If you write your function correctly,
-// the assertions will do nothing. If you write your function
-// incorrectly or not at all, your assertions will fail
-// in your console.
+// the assertions will do nothing. If you write your funct
 
 
-// Q1
-// Write a function called `sum` that takes two
-// parameters and returns the sum of those 2 numbers.
-
-console.assert(sum(2,4) === 6)
-console.assert(sum(45, 23) === 68)
-console.assert(sum(-2, -57) === -59)
-
-// Q2
-// Write a function named `avg` that takes 3 parameters
-// and returns the average of those 3 numbers.
-
-console.assert(avg(2,3,4) === 3)
+console.assert(avg(2, 3, 4) === 3)
 console.assert(avg(234, 63, 234) === 177)
-console.assert(avg(123,234,345) === 234)
+console.assert(avg(123, 234, 345) === 234)
 
 // Q3
 // Write a function called `getLength` that takes one
 // parameter (a string) and returns the length
 
-console.assert(getLength('Michael') === 7)
-console.assert(getLength('Javascript') === 10)
-console.assert(getLength('supercalifragilisticexpialidocious') === 34)
+console.assert(getLength("Michael") === 7)
+console.assert(getLength("Javascript") === 10)
+console.assert(getLength("supercalifragilisticexpialidocious") === 34)
 
 // Q4
 // Write a function called `greaterThan` that takes
@@ -74,7 +60,7 @@ console.assert(greet("Iron Man") === "Hello, Iron Man!")
 
 // Q6
 // Write a function called `madlib` that takes
-// 4 or more parameters (words). The function 
+// 4 or more parameters (words). The function
 // should insert the words into a pre-defined
 // sentence. Finally the function should return
 // that sentence.
@@ -83,7 +69,13 @@ console.assert(greet("Iron Man") === "Hello, Iron Man!")
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 
-console.assert(madlib("quick","fox","jumps","fence")=== "The quick brown fox jumps over the fence.")
-console.assert(madlib("fat","rabbit","hops","wall")=== "The fat brown rabbit hops over the wall.")
+console.assert(
+  madlib("quick", "fox", "jumps", "fence") ===
+    "The quick brown fox jumps over the fence."
+)
+console.assert(
+  madlib("fat", "rabbit", "hops", "wall") ===
+    "The fat brown rabbit hops over the wall."
+)
 ///////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////

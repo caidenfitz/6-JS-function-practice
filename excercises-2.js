@@ -3,6 +3,7 @@
 // arguments and returns the largest of them. Use the 
 // if-then-else construct available in JavaScript.
 // ---------------------
+console.log("hello")
 
 console.assert(max(2,3) === 3)
 console.assert(max(23,24) === 24)
